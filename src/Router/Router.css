@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.notfound{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: 600;
+    font-size: 100px; */
+    /* margin-top: 310px; */
+    /* margin-left: 350px; */
+}
+.notfound-parent{
+    background: url('https://cdn1.vectorstock.com/i/1000x1000/77/15/404-error-page-not-found-plug-graphic-background-vector-21467715.jpg') no-repeat ;
+    height:100vh ;
+   
+    background-position:center;
+    background-size:cover;
+   
+
+}
+/* blog */
+.blog{
+    padding-block:20px;
+    background-color: rgb(215, 250, 216);
+}

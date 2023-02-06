@@ -1,0 +1,190 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+
+
+.navbar{
+   padding-inline:  40px; 
+   margin-top: 20px;
+    width: 100%;
+    position: fixed;
+ 
+    justify-content: space-between;
+}
+
+
+  /*mid-menu  */
+
+.mid-menu-parent li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-weight: 500;
+
+    padding-inline:17px;
+}
+.mid-menu-parent li:hover{
+    cursor: pointer;
+}
+/* last-menu */
+
+.last-menu-parent li{
+    text-decoration: none;
+    list-style: none;
+    padding-inline: 10px;
+    font-weight: 500;
+    
+    color: black;
+}
+.last-menu-parent li:hover{
+    cursor: pointer;
+}
+
+/* sidebar */
+
+.sidebar{
+
+    position: absolute;
+    top: -20px;;
+    width: 300px;
+    background-color: white;
+    height: 100vh;
+    /* display: inline-block; */
+   
+ 
+}
+.sidebar ul{
+    list-style: none;
+    margin-top: 80px;;
+    margin-left: 35px;
+    
+}
+.sidebar ul li a {
+    text-decoration: none;
+}
+.sidebar ul li{
+    padding:10px;
+    font-weight: 500;
+   
+    
+}
+/* cross */
+.cross{
+    position: absolute;
+    right: 2.5rem;
+    top: 2rem;
+
+}
+
+/* heading */
+.heading-parent{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:130px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.heading {
+    text-decoration: none;
+    color: black;
+    
+  
+}
+/*  */
+.heading a{
+    /* text-decoration: none; */
+    font-size: large;
+    color: black;
+
+}
+.heading h1{
+    font-size: 40px;
+    font-weight: 501;
+    line-height: 1.5;
+   
+
+}
+.slide-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    height: 100vh;
+    background-size:cover ;
+   
+    background-repeat: no-repeat;
+     background-attachment:scroll ;
+    background-position: center;
+
+   
+    
+}
+
+/* btns */
+.btns{
+    gap: 20px;
+    margin-top: 250px;
+    color: black;
+   
+   font-size: 20px;
+    
+  
+
+}
+.btns a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding-inline:65px;
+    padding-block: 10px  ;
+
+}
+.btns a:nth-of-type(1){
+      
+        color: rgb(255, 255, 255);
+        background: rgba(0,0,0,0.6)
+        
+}
+.btns a:nth-of-type(2){
+    
+    background: rgba(255, 255, 255,0.6);
+
+    color: rgb(0, 0, 0);
+}
+
+.cross{
+    height: 200px;
+}
+.cross:hover{
+    cursor: pointer;
+}
+.last-menu-parent :nth-child(3):hover{
+cursor: pointer;
+}
+
+.dropbtn{
+     align-self: center;
+    margin-top: -100px;
+    align-items: center;
+   width: 90px;
+   
+}
+
+
+/* utility classes */
+.flex{
+    display: flex;
+}
+
+
+
+
