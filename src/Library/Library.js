@@ -5,8 +5,9 @@ import Singlebook from './Singlebook'
 import Blankpage from './Blankpage.js'
 import Bookshome from './Bookshome.js'
 import Contact from '../Router/Contact.js'
-import About from '../Router/About.js'
-import Services from '../Router/Services.js'
+import About from './About.js'
+import Services from './Serivces.js'
+import Notfound from './Notfound.js'
 // import Bookshome from './Bookshome'
 
 import  './Library.css'
@@ -23,15 +24,16 @@ function Library() {
    <Route path='Services' element={<Services/>}></Route>
    <Route path='About' element={<About/>}></Route>
 
-   <Route path='/Books' element={<Blankpage/>}>
-          <Route   element={<Books type='action'/>}>  
-            <Route    element={<Books type='love'/>}/> 
-            <Route  element={<Books type='fiction'/>}/> 
-            <Route   index element={<Books type='drama'/>}/> 
-            </Route>
-          
-         
+   <Route path='books' element={<Blankpage/>}>
+            <Route  path='' element={<Books type='drama'/>}> 
+            <Route path='' element={<Books type='love'/>}/>
+  <Route path='' element={<Books type='fiction'/>}/> 
+          <Route path=''  element={<Books type='action'/>}/>   
+          </Route> 
+            
+
           <Route  path=':id' element={<Singlebook/>}> </Route>
+          <Route path='*' element={<Notfound/>}></Route>
    </Route>
    
 </Route>

@@ -1,3 +1,4 @@
+import { ShoppingCart } from '@mui/icons-material';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -7,13 +8,14 @@ import ReactDOM from 'react-dom/client';
 // import Axios from './axios/axios.js'
 // import Movie from './MovieDb/Movie.js';
 // import Todo from './Todo/Todo.js';
-import Netflix from './Netflix/Netflix.js'
+// import Netflix from './Netflix/Netflix.js'
 // import Game from './Game/Game.js'
 // import Router from './Router/Router.js'
 // import App from './Routing/App.js'
 // import Library from './Library/Library.js'
 // import Page1 from './CoordinateChecker/page1';
-
+// import App from './shoppingCart/App';
+import Flag from './Flag/Flag';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -22,19 +24,20 @@ root.render(
 
   <>
   <React.StrictMode>
-  
+  {/* <App/> */}
 {/* <Tesla/> */}
 {/* <RandomData/> */}
 {/* <Axios/> */}
 {/* <Fetchdata/> */}
  {/* <Movie/> */}
  {/* <Todo/> */}
- <Netflix/>
+ {/* <Netflix/> */}
  {/* <Game/> */}
  {/* <Page1/> */}
 {/* <App/> */}
 {/* <Router/> */}
 {/* // <Library/> */}
+<Flag/>
   </React.StrictMode>
   </>
 );

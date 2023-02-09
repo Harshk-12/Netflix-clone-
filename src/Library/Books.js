@@ -31,7 +31,7 @@ function Books(props) {
                     />
 
                     <h2>{item.title}</h2>
-                  <p><Link to={`/Books/${item.cover_edition_key}.json`}>{`Author:${item.authors[0].name}`}</Link></p>
+                  <p><Link to={`/Books/${item.cover_edition_key}`}>{`Author:${item.authors[0].name}`}</Link></p>
 
                  
                 </div>
