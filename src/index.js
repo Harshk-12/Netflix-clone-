@@ -14,8 +14,10 @@ import ReactDOM from 'react-dom/client';
 // import App from './Routing/App.js'
 // import Library from './Library/Library.js'
 // import Page1 from './CoordinateChecker/page1';
+// import UseContext from './custom hooks/markdown-files/Contextapi/UseContext';
 // import App from './shoppingCart/App';
-import Flag from './Flag/Flag';
+// import Flag from './Flag/Flag';
+import UseContext from './Contextapi/UseContext'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -37,7 +39,8 @@ root.render(
 {/* <App/> */}
 {/* <Router/> */}
 {/* // <Library/> */}
-<Flag/>
+{/* <Flag/> */}
+<UseContext/>
   </React.StrictMode>
   </>
 );

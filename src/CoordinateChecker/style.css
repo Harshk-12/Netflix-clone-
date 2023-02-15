@@ -30,6 +30,7 @@
     height: 15rem;
     width: 30rem;
     background-color: #09c31f;
+    position: relative;
 
 }
 .coordinates{
@@ -41,4 +42,13 @@
     padding-inline: 1.5rem;
     border-radius: 10px;
     width: 15rem;
+}
+.redpoint{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10rem;
+    position: absolute;
+    left: x;
+    top:y;
 }

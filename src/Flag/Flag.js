@@ -5,7 +5,7 @@ import './Flag.css'
 
 function Flag() {
   let[name,setname]=useState('')
-  let [flag, setflag]=useState([])
+  let [flag, setflag]=useState([]) 
   
 
 
@@ -37,7 +37,7 @@ function Flag() {
     <div className='container'>
      
 {
-          flag.map((item,index)=>{ 
+          flag.map((item)=>{ 
            return(
             <>
             
