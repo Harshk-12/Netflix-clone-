@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom/client';
 // import Axios from './axios/axios.js'
 // import Movie from './MovieDb/Movie.js';
 // import Todo from './Todo/Todo.js';
-// import Netflix from './Netflix/Netflix.js'
+import Netflix from './Netflix/Netflix.js'
 // import Game from './Game/Game.js'
 // import Router from './Router/Router.js'
 // import App from './Routing/App.js'
@@ -17,7 +17,7 @@ import ReactDOM from 'react-dom/client';
 // import UseContext from './custom hooks/markdown-files/Contextapi/UseContext';
 // import App from './shoppingCart/App';
 // import Flag from './Flag/Flag';
-import UseContext from './Contextapi/UseContext'
+// import UseContext from './Contextapi/UseContext'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -33,14 +33,14 @@ root.render(
 {/* <Fetchdata/> */}
  {/* <Movie/> */}
  {/* <Todo/> */}
- {/* <Netflix/> */}
+ <Netflix/>
  {/* <Game/> */}
  {/* <Page1/> */}
 {/* <App/> */}
 {/* <Router/> */}
 {/* // <Library/> */}
 {/* <Flag/> */}
-<UseContext/>
+{/* <UseContext/> */}
   </React.StrictMode>
   </>
 );
